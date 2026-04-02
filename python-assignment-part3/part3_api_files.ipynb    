@@ -2,16 +2,6 @@
   "cells": [
     {
       "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/sreekruthy/sreekruthy-part-3_fileio_api_exceptionhandling_bitsom_ba_2511592/blob/main/python-assignment-part3/part3_api_files.ipynb%20%20%20%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
-      "cell_type": "markdown",
       "source": [
         "#Part 3: File I/O, APIs & Exception Handling"
       ],
@@ -63,14 +53,14 @@
         "print(\"Lines appended.\")"
       ],
       "metadata": {
-        "id": "8Oo65rYSSiXw",
-        "outputId": "00632488-e04f-43f4-9dcd-1c3ea7cfc082",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "8Oo65rYSSiXw",
+        "outputId": "d2b7cd59-642b-4364-bca4-c8196bb68a63"
       },
       "id": "8Oo65rYSSiXw",
-      "execution_count": 84,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
@@ -122,14 +112,14 @@
         "    print(\"No matching lines found.\")"
       ],
       "metadata": {
-        "id": "CUzRFa3jTofo",
-        "outputId": "1ca5584d-f94d-4c4e-dfbb-20eaa96c3a9c",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "CUzRFa3jTofo",
+        "outputId": "8017b87e-e538-40be-a7ea-df26f3d55f24"
       },
       "id": "CUzRFa3jTofo",
-      "execution_count": 86,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
@@ -168,14 +158,14 @@
         "!pip install requests"
       ],
       "metadata": {
-        "id": "hiflj-QtVi98",
-        "outputId": "04bd6ad6-2ab2-44f4-c878-d3ac7648da33",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "hiflj-QtVi98",
+        "outputId": "f5c2045d-2848-4b69-9675-99d18586d13c"
       },
       "id": "hiflj-QtVi98",
-      "execution_count": 88,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
@@ -221,14 +211,14 @@
         "    print(f\"{p['id']:<2} | {p['title']:<45} | {p['category']:<10} | ${p['price']:<7} | {p['rating']}\")"
       ],
       "metadata": {
-        "id": "V0dVrnkyU4bo",
-        "outputId": "806b123f-3979-4172-9f44-56c572faa316",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "V0dVrnkyU4bo",
+        "outputId": "0e494f83-543e-4806-bfbe-fc354b8fa40a"
       },
       "id": "V0dVrnkyU4bo",
-      "execution_count": 94,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "stream",
@@ -285,14 +275,14 @@
         "    print(f\"{p['title']} - ${p['price']} - Rating: {p['rating']}\")"
       ],
       "metadata": {
-        "id": "TnPZcBrlU9kc",
-        "outputId": "dc6ae0f7-685c-4b15-b9ce-1c4283b1a682",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "TnPZcBrlU9kc",
+        "outputId": "e4b9caa6-1b12-47e8-f921-6e0b64a9fb60"
       },
       "id": "TnPZcBrlU9kc",
-      "execution_count": 96,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "stream",
@@ -333,14 +323,14 @@
         "    print(f\"{p['title']} - ${p['price']}\")"
       ],
       "metadata": {
-        "id": "eNr4bfGnU-Ll",
-        "outputId": "19ea9d51-9b5c-46e5-c68d-9d67c98703aa",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "eNr4bfGnU-Ll",
+        "outputId": "26b16a8f-c2c6-4311-81f0-6e42ac642455"
       },
       "id": "eNr4bfGnU-Ll",
-      "execution_count": 97,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "stream",
@@ -387,14 +377,14 @@
         "print(response.json()) # convert response to JSON and print"
       ],
       "metadata": {
-        "id": "t9dhvha5VANN",
-        "outputId": "1ded2f29-d6dd-48a2-9e86-f9db4e3acdf4",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "t9dhvha5VANN",
+        "outputId": "23228128-6cca-448f-9926-6d49cb9ab907"
       },
       "id": "t9dhvha5VANN",
-      "execution_count": 98,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -447,14 +437,14 @@
         "print(safe_divide(\"ten\", 2))"
       ],
       "metadata": {
-        "id": "TEpaeOk1VFb2",
-        "outputId": "1d5a395e-d0a1-45b0-ef59-6a86e58bb301",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "TEpaeOk1VFb2",
+        "outputId": "f2b07c2f-4afd-4f3d-ac74-8ea1bc9e7683"
       },
       "id": "TEpaeOk1VFb2",
-      "execution_count": 99,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "stream",
@@ -497,14 +487,14 @@
         "print(read_file_safe(\"ghost_file.txt\"))"
       ],
       "metadata": {
-        "id": "XVXLROLiVHkk",
-        "outputId": "e3c66d5c-ad52-4194-9893-7dc0e629d4be",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "XVXLROLiVHkk",
+        "outputId": "982a5518-9fa9-4872-a494-f26b1baf8f66"
       },
       "id": "XVXLROLiVHkk",
-      "execution_count": 100,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "stream",
@@ -561,14 +551,14 @@
         "    print(\"Error:\", e)"
       ],
       "metadata": {
-        "id": "6F82a7lJt8Er",
-        "outputId": "55180b95-f447-44ae-a7b5-369d1c39c595",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "6F82a7lJt8Er",
+        "outputId": "4e6d46c5-232b-4734-ec52-8a8c234b2bc6"
       },
       "id": "6F82a7lJt8Er",
-      "execution_count": 1,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "stream",
@@ -601,14 +591,14 @@
         "    print(\"Error:\", e)"
       ],
       "metadata": {
-        "id": "1ofyXz5MVKqN",
-        "outputId": "8cda89e2-b0c4-4986-a2dc-6426ca54a636",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "1ofyXz5MVKqN",
+        "outputId": "85cb5d03-21d0-4909-e74d-b7e39e90deb5"
       },
       "id": "1ofyXz5MVKqN",
-      "execution_count": 4,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "stream",
@@ -648,14 +638,14 @@
         "    print(\"Error:\", e)"
       ],
       "metadata": {
-        "id": "ee4p3aN4umq-",
-        "outputId": "b43461b3-fd54-437e-e515-811fcdbc38b7",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "ee4p3aN4umq-",
+        "outputId": "cf91cbaf-35c8-4cb6-91be-666d1ae3983c"
       },
       "id": "ee4p3aN4umq-",
-      "execution_count": 3,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "stream",
@@ -711,30 +701,33 @@
         "        print(f\"{data['title']} - ${data['price']}\")"
       ],
       "metadata": {
-        "id": "hbtDy2lXVMoj",
-        "outputId": "7dd795d1-f80f-4668-f3b5-218d4603c25d",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "hbtDy2lXVMoj",
+        "outputId": "59c789b0-f221-4ba5-c513-6486c0c23d30"
       },
       "id": "hbtDy2lXVMoj",
-      "execution_count": 6,
+      "execution_count": 13,
       "outputs": [
         {
           "name": "stdout",
           "output_type": "stream",
           "text": [
             "\n",
-            "Enter product ID to look up (1–100), or 'quit' to exit: 11\n",
-            "Annibale Colombo Bed - $1899.99\n",
+            "Enter product ID to look up (1–100), or 'quit' to exit: 17\n",
+            "Beef Steak - $12.99\n",
             "\n",
-            "Enter product ID to look up (1–100), or 'quit' to exit: 26\n",
-            "Green Chili Pepper - $0.99\n",
+            "Enter product ID to look up (1–100), or 'quit' to exit: 56\n",
+            "Electric Stove - $49.99\n",
             "\n",
-            "Enter product ID to look up (1–100), or 'quit' to exit: 173\n",
+            "Enter product ID to look up (1–100), or 'quit' to exit: 107\n",
             "Enter ID between 1 and 100.\n",
             "\n",
             "Enter product ID to look up (1–100), or 'quit' to exit: abc\n",
+            "Do not make an API call with invalid input. Enter a number.\n",
+            "\n",
+            "Enter product ID to look up (1–100), or 'quit' to exit: exit\n",
             "Do not make an API call with invalid input. Enter a number.\n",
             "\n",
             "Enter product ID to look up (1–100), or 'quit' to exit: quit\n"
@@ -786,14 +779,14 @@
         "    print(file.read())"
       ],
       "metadata": {
-        "id": "h0OXyLYBVTt8",
-        "outputId": "139c5745-d3c6-4984-c78a-8f931688e393",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "h0OXyLYBVTt8",
+        "outputId": "5e8899e4-6b38-41d4-e71a-8216b81f3285"
       },
       "id": "h0OXyLYBVTt8",
-      "execution_count": 8,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "stream",
@@ -801,10 +794,8 @@
           "text": [
             "\n",
             "Error Log:\n",
-            "[2026-04-02 10:32:20.349426] ERROR in fetch_products: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7eb821bc0080>: Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno -2] Name or service not known)\"))\n",
-            "[2026-04-02 10:32:20.444779] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 999\n",
-            "[2026-04-02 10:33:12.745818] ERROR in fetch_products: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7eb821d4e810>: Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno -2] Name or service not known)\"))\n",
-            "[2026-04-02 10:33:12.846610] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 173\n",
+            "[2026-04-02 14:38:40.255829] ERROR in fetch_products: ConnectionError — HTTPSConnectionPool(host='this-host-does-not-exist-xyz.com', port=443): Max retries exceeded with url: /api (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x7e2859c961e0>: Failed to resolve 'this-host-does-not-exist-xyz.com' ([Errno -2] Name or service not known)\"))\n",
+            "[2026-04-02 14:38:40.402616] ERROR in lookup_product: HTTPError — 404 Not Found for product ID 107\n",
             "\n"
           ]
         }
@@ -821,8 +812,7 @@
     },
     "required_libs": [],
     "colab": {
-      "provenance": [],
-      "include_colab_link": true
+      "provenance": []
     }
   },
   "nbformat": 4,
